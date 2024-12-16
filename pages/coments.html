@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comentarios</title>
+  <link rel="stylesheet" href="../css/coments.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <div class="left">
+        <span class="icon">🐾</span>
+        <span class="text">Dejanos un comentario sobre que te ha parecido nuestra galeria de gatos.</span>
+      </div>
+      <div class="right">
+        <a href="../index.html"><button class="coments">Regresar a la galeria</button></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Caja para agregar comentario -->
+    <div class="comment-box">
+      <input type="text" id="author" placeholder="Tu nombre">
+      <textarea id="message" rows="4" placeholder="Escribe tu comentario sobre los gatos..."></textarea>
+      <button onclick="addComment()">Comentar</button>
+    </div>
+
+    <!-- Sección de comentarios ficticios -->
+    <div class="comments-section">
+      <h2>Comentarios</h2>
+
+      <!-- Comentarios ficticios -->
+      <div class="comment">
+        <p class="author">Carlos Pérez</p>
+        <p class="message">¡Los gatos son increíbles! Me encantan sus ojitos brillantes y su forma de moverse. 🐱</p>
+      </div>
+
+      <div class="comment">
+        <p class="author">Ana López</p>
+        <p class="message">Siempre he querido tener un gato. Son tan adorables y tiernos, ¡definitivamente mi mascota
+          favorita!</p>
+      </div>
+
+      <div class="comment">
+        <p class="author">Juan García</p>
+        <p class="message">Nada mejor que ver a un gato jugando, ¡su energía es tan contagiosa!</p>
+      </div>
+
+      <div class="comment">
+        <p class="author">Laura Rodríguez</p>
+        <p class="message">Los gatos tienen una personalidad única. Me encanta como pueden ser tan independientes pero
+          también tan cariñosos.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>🐾 Arte de los gatos, una forma única de expresar ternura y elegancia. </p>
+      <p> &copy; 2024 Arte Gato. Todos los derechos reservados. 🐾</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
